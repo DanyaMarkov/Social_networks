@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.container {
+    max-width: 935px;
+    border: 0px solid #222;
+    margin: 0px auto;
+}
+
+.header {
+    &__body {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__logo {
+        margin-top: 15px;
+    }
+
+    &__search {
+        background-color: #fafafa;
+    }
+
+    &__menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    &__menu-el {
+        margin: 0px 11px 0px 11px;
+    }
+}
